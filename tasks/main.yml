@@ -9,4 +9,3 @@
   command: '{{ sesam_install }}/sm_setup set_client "{{ sesam_backup_server }}"'
   become: yes
   changed_when: false
-
